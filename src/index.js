@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import props from './Regiment';
+import props from './Regiments';
 import App from './App';
 
 

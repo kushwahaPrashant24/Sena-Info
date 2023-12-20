@@ -1,12 +1,32 @@
 import React from "react";
 import Card from "./card";
-import Regiment from "./Regiment";
+import Regiments from "./Regiments";
+
+
+   function createcards(Regiment){
+    return <Card 
+          
+          key= {Regiment.id}
+          name= {Regiment.name}
+          img= {Regiment.img}
+          active= {Regiment.active}
+          center= {Regiment.center}
+
+    />
+   }
+
+
+
+
 
 function App() {
-  console.log(Regiment);
+  console.log(Regiments);
 
   return (
-    <div className="App">
+    <div className="App">{Regiments.map(createcards)}</div>
+   /* <div className="App">
+      
+      <div>
       <Card
         name={Regiment[0].name}
         img={Regiment[0].img}
@@ -83,8 +103,8 @@ function App() {
         active={Regiment[10].active}
         center={Regiment[10].center}
       />
-
-    </div>
+      </div>
+    </div>*/
   );
 }
 
