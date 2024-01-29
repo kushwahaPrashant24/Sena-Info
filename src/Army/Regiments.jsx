@@ -98,7 +98,15 @@ const props = [
     img:"https://www.rational-mind.com/wp-content/uploads/2023/03/Maratha-Regiment_202202192255400315_H@@IGHT_390_W@@IDTH_696.jpg",
     active:"Active From: 1768",
     center:"Regimental Centre: Belgaum, Karnataka"
-}
+},
+
+/*{
+    "id":"12",
+    name:"",
+    img:"",
+    active:"Active From: ",
+    center:"Regimental Centre: "
+}*/
 
 
 ]
