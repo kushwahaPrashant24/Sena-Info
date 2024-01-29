@@ -1,0 +1,26 @@
+body{
+   
+    padding: 0px;
+}
+
+
+.Navbar{
+    background-image: url(/img/header.jpg);
+    
+    background-size: cover;
+    background-color: aquamarine;
+width: 98.9vw;
+height: 10vh;
+margin: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#heading{
+ 
+    justify-content: center;
+    align-items: center;
+
+}

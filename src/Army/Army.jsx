@@ -1,19 +1,25 @@
 import React from "react";
+import Card from "./card";
+import Regiments from "./Regiments";
 
-import Army from "./Army/Army";
+function createcards(Regiment){
+    return <Card 
+          
+          key= {Regiment.id}
+          name= {Regiment.name}
+          img= {Regiment.img}
+          active= {Regiment.active}
+          center= {Regiment.center}
 
-   
+    />
+   }
 
 
-function App() {
-  
+function Army() {
+  console.log(Regiments);
 
   return (
-    <div className="App">
-      <div>
-      <Army />
-      </div>
-    </div>
+    <div className="App">{Regiments.map(createcards)}</div>
    /* <div className="App">
       
       <div>
@@ -98,4 +104,4 @@ function App() {
   );
 }
 
-export default App;
+export default Army;

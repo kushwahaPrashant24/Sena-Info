@@ -1,5 +1,5 @@
 import React from "react";
-import css from './index.css';
+import css from '../index.css';
 
 
 
@@ -17,6 +17,7 @@ import css from './index.css';
         </div>
       }
 
+     
 
 
 export default Cards;
